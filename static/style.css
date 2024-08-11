@@ -1,0 +1,121 @@
+:root {
+  color-scheme: dark light;
+
+  --color-light-red: #ff7f7f;
+  --color-light-blue: #7f7fff;
+  --color-light-white: #ffffff;
+
+  --color-dark-red: #ff0000;
+  --color-dark-blue: #0000ff;
+  --color-dark-white: #e0e0e0;
+  --white: var(--color-dark-white);
+
+  --color-black: #000000;
+  --color-grey: #a5a5a5;
+  --color-gray: var(--color-grey);
+
+  --red: var(--color-light-red);
+  --blue: var(--color-light-blue);
+  --white: var(--color-light-white);
+
+  --color-shadow-blue: rgba(2 17 48 / 90%);
+  --color-shadow-red: rgb(76 4 4 / 90%);
+
+  --spacing: 3em;
+}
+
+[data-theme="dark"] {
+  background-color: var(--color-dark-white);
+  color: var(--color-black);
+}
+
+[data-theme="light"] {
+  background-color: var(--color-light-white);
+  color: var(--color-light-black);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --theme: dark;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --theme: light;
+  }
+}
+
+body {
+  background: var(--bg);
+  background: url('./us_flag.jpg') no-repeat center center fixed;
+  color: var(--color);
+  height: 100svh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.countdown {
+  display: grid;
+  place-items: center;
+  gap: var(--spacing);
+  padding: var(--spacing);
+  margin: var(--spacing);
+  grid-template-columns: 1fr 3px 1fr 3px 1fr;
+  background: var(--color-shadow-blue);
+  box-shadow: 3px 3px 0px var(--red),
+              6px 6px 0px var(--white),
+              9px 9px 0px var(--blue),
+              -3px 3px 0px var(--red),
+              -6px 6px 0px var(--white),
+              -9px 9px 0px var(--blue),
+              3px -3px 0px var(--red),
+              6px -6px 0px var(--white),
+              9px -9px 0px var(--blue),
+              -3px -3px 0px var(--red),
+              -6px -6px 0px var(--white),
+              -9px -9px 0px var(--blue);
+
+  .wall {
+    background: var(--white);
+    width: 3px;
+    height: 100%;
+  }
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-shadow: 0 0 0.5em var(--color-shadow-red),
+               0 0 1em var(--color-shadow-red),
+               0 0 1.2em var(--color-shadow-red);
+}
+
+h1 {
+  color: var(--red);
+  font-size: 3rem;
+}
+
+h2 {
+  color: var(--blue);
+  font-size: 2rem;
+}
+
+p {
+  font-size: 8rem;
+  text-shadow: 0 0 0.5em var(--color-shadow-blue),
+               0 0 1em var(--color-shadow-blue),
+               0 0 1.2em var(--color-shadow-blue);
+}
