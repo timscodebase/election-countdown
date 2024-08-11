@@ -147,9 +147,9 @@ hr {
 
 @media screen and (max-width: 1200px) {
   :root {
-    --spacing: 5px;
+    --spacing: 1em;
   }
-  
+
   .countdown {
     grid-template-columns: 1fr;
     
