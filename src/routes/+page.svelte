@@ -14,7 +14,7 @@
 			<p>{daysUntilFutureDate(electionDay)}</p>
 			<div class="days blue">Days</div>
 		</div>
-		<div class="wall" />
+		<div class="wall"></div>
 		<div class="early-vote">
 			<h2>Days until Early Voting By Mail</h2>
 			<p>{daysUntilFutureDate(earlyVotingMailInStart)}</p>
@@ -25,7 +25,7 @@
 			<p>{daysUntilFutureDate(earlyVotingInPersonStart)}</p>
 			<div class="days">Days</div>
 		</div>
-		<div class="wall" />
+		<div class="wall"></div>
 		<div class="kamala-days">
 			<h2>Kamala Vice Presidency</h2>
 			<p>{daysSinceDate(lastElectionDay)}</p>
