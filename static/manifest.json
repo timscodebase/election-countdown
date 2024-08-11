@@ -1,0 +1,57 @@
+{
+    "short_name": "election-countdown",
+    "name": "election-countdown",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "": "favicon-32x32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "": "favicon-16x16.png",
+        "type": "image/png",
+        "sizes": "16x16"
+      },
+      {
+        "": "mstile-150x150.png",
+        "type": "image/png",
+        "sizes": "150x150"
+      }
+    ],
+    "background_color": "#6712b8",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#6712b8",
+    "shortcuts": [
+      {
+        "name": "How long wtill the election?",
+        "short_name": "Election Countdown",
+        "description": "Countdown to election day!",
+        "url": "/",
+        "icons": [{ "src": "android-chrome-192x192.png", "sizes": "192x192" }]
+      }
+    ],
+    "screenshots" : [
+      {
+        "src": "mobile-screenshot.png",
+        "sizes": "500x785",
+        "type": "image/png",
+        "form_factor": "tall",
+        "label": "Mobile Screenshot of Election Countdown"
+      },
+      {
+        "src": "desktop-screenshot.png",
+        "sizes": "500x593",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Desktop Screenshot of Election Countdown"
+      }
+    ],
+    "description": "Countdown to election day!"
+}
