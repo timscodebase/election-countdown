@@ -50,7 +50,7 @@ body {
   background: var(--bg);
   background: url('./us_flag.jpg') no-repeat center center fixed;
   color: var(--color);
-  min-height: 100vh;
+  min-height: 100svh;
   font-family: Arial, Helvetica, sans-serif;
   font-smooth: antialiased;
   -webkit-font-smoothing: antialiased;
@@ -58,8 +58,7 @@ body {
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   place-content: center;
   text-align: center;
   gap: 1rem;
@@ -68,6 +67,7 @@ main {
 
 @media screen and (max-width: 600px) {
   .countdown {
+    grid-template-columns: 1fr;
 
     .wall {
       display: none;
@@ -150,3 +150,16 @@ hr {
   margin: 2em;
 }
 
+@media screen and (max-width: 600px) {
+  .countdown {
+    grid-template-columns: 1fr;
+
+    .wall {
+      display: none;
+    }
+  }
+
+  hr {
+    display: none;
+  }
+}
