@@ -12,14 +12,17 @@
 		<div class="election-day">
 			<h1>Days until Election Day</h1>
 			<p>{daysUntilFutureDate(electionDay)}</p>
+			<div class="days">Days</div>
 		</div>
 		<div class="wall" />
 		<div class="early-vote">
 			<h2>Days until Early Voting By Mail</h2>
 			<p>{daysUntilFutureDate(earlyVotingMailInStart)}</p>
+			<div class="days">Days</div>
 
 			<h2>Days until Early Voting in Person</h2>
 			<p>{daysUntilFutureDate(earlyVotingInPersonStart)}</p>
+			<div class="days">Days</div>
 		</div>
 		<div class="wall" />
 		<div class="kamala-days">
