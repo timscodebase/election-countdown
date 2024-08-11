@@ -119,3 +119,18 @@ p {
                0 0 1em var(--color-shadow-blue),
                0 0 1.2em var(--color-shadow-blue);
 }
+
+.days {
+  font-size: 1.5em;
+  color: var(--red);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.days.blue {
+  color: var(--blue);
+}
+
+hr {
+  border: 2px solid var(--white);
+  margin: 2em;
+}
