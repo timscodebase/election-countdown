@@ -14,9 +14,9 @@
   --color-grey: #a5a5a5;
   --color-gray: var(--color-grey);
 
-  --red: var(--color-dark-red);
-  --blue: var(--color-dark-blue);
-  --white: var(--color-dark-white);
+  --red: var(--color-light-red);
+  --blue: var(--color-light-blue);
+  --white: var(--color-light-white);
 
   --color-shadow-blue: rgba(2 17 48 / 90%);
   --color-shadow-red: rgb(76 4 4 / 90%);
