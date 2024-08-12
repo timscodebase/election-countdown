@@ -12,7 +12,7 @@
 <Analytics />
 
 <svelte:head>
-	<title>{name}</title>
+	<title>"🇺🇸 Countdown to the Election 🇺🇸 2024"</title>
 	<meta name="description" content="🇺🇸 Countdown to the Election 🇺🇸 2024" />
 	<meta name="keywords" content="🇺🇸 Countdown to the Election 🇺🇸 2024" />
 	<meta name="author" content="🇺🇸 Countdown to the Election 🇺🇸 2024" />
