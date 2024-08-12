@@ -107,7 +107,7 @@ h1, h2, p {
   padding: 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
   text-shadow: 0 0 0.5em var(--color-shadow-red),
                0 0 1em var(--color-shadow-red),
                0 0 1.2em var(--color-shadow-red);
@@ -121,6 +121,15 @@ h1 {
 h2 {
   color: var(--blue);
   font-size: 2rem;
+}
+
+h3 {
+  color: var(--red);
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 3em !important;
 }
 
 p {
