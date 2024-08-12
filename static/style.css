@@ -77,7 +77,8 @@ main {
 .countdown {
   display: flex;
   flex-wrap: wrap;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
   gap: var(--spacing);
   padding: var(--spacing);
   margin: var(--spacing);
