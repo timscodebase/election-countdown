@@ -57,6 +57,10 @@
 	</section>
 </main>
 <footer>
-	<p>Created by <a href="https://github.com/timscodebase" target="_blank">Tim Smith</a></p>
+	<p>
+		Created by <a href="https://github.com/timscodebase/election-countdown" target="_blank"
+			>Tim Smith</a
+		>
+	</p>
 	<p>Copyright &copy; {new Date().getFullYear()}</p>
 </footer>
