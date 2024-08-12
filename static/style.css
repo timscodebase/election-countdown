@@ -72,9 +72,8 @@ main {
   gap: 1rem;
 }
 
-.countdown {
+.countdown, footer, header {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: var(--spacing);
@@ -114,7 +113,8 @@ h1, h2, h3 {
 
 h1 {
   color: var(--red);
-  font-size: 3rem;
+  text-align: center;
+  font-size: clamp(2rem, 4.5vw, 4.5rem);
 }
 
 h2 {
@@ -153,12 +153,24 @@ hr {
   margin: 2em;
 }
 
+footer {
+  text-align: center;
+  p {
+    font-size: 0.8em;
+    color: var(--color-grey);
+    text-shadow: 0 0 0.5em var(--color-shadow-red),
+               0 0 1em var(--color-shadow-red),
+               0 0 1.2em var(--color-shadow-red);
+  }
+}
+
 @media screen and (max-width: 1200px) {
   :root {
     --spacing: 1em;
   }
 
   .countdown {
+    flex-wrap: wrap;
     gap: var(--spacing);
     .wall {
       display: none;

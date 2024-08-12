@@ -19,7 +19,7 @@
         "sizes": "16x16"
       },
       {
-        "": "mstile-150x150.png",
+        "src": "mstile-150x150.png",
         "type": "image/png",
         "sizes": "150x150"
       }
@@ -37,17 +37,25 @@
         "icons": [{ "src": "android-chrome-192x192.png", "sizes": "192x192" }]
       }
     ],
+    "protocol_handlers": [
+      {
+        "protocol": "web+electioncountdown",
+        "url": "/electioncountdown?type=%s"
+      }
+    ],
     "screenshots" : [
       {
         "src": "mobile-screenshot.png",
         "sizes": "500x785",
         "type": "image/png",
+        "form_factor": "tall",
         "label": "Mobile Screenshot of Election Countdown"
       },
       {
         "src": "desktop-screenshot.png",
-        "sizes": "500x593",
+        "sizes": "593x500",
         "type": "image/png",
+        "form_factor": "wide",
         "label": "Desktop Screenshot of Election Countdown"
       }
     ],

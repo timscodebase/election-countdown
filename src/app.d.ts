@@ -6,7 +6,12 @@ declare global {
 		// interface Locals {}
 		// interface PageData {}
 		// interface PageState {}
-		// interface Platform {}
+		interface Platform {
+			env?: {
+				YOUR_KV_NAMESPACE: ELECTION_COUNTDOWN_KV_NAMESPACE;
+				YOUR_DURABLE_OBJECT_NAMESPACE: ElectionCountdownDurableObjectNamespace;
+			};
+		}
 	}
 }
 
