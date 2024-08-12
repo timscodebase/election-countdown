@@ -59,7 +59,6 @@ body {
   background: var(--bg);
   background: url('./us_flag.jpg') no-repeat center center fixed;
   color: var(--color);
-  min-height: 100svh;
   font-family: Arial, Helvetica, sans-serif;
   font-smooth: antialiased;
   -webkit-font-smoothing: antialiased;
@@ -71,7 +70,6 @@ main {
   place-content: center;
   text-align: center;
   gap: 1rem;
-  height: 100%;
 }
 
 .countdown {
@@ -81,7 +79,7 @@ main {
   align-items: center;
   gap: var(--spacing);
   padding: calc(var(--spacing) / 2) var(--spacing);
-  margin: var(--spacing);
+  margin: calc(var(--spacing) / 2) var(--spacing);
   background: var(--color-shadow-blue);
   box-shadow: 3px 3px 0px var(--red),
               6px 6px 0px var(--white),
