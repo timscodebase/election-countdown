@@ -17,6 +17,9 @@ importers:
       '@sveltejs/adapter-vercel':
         specifier: ^5.4.2
         version: 5.4.2(@sveltejs/kit@2.5.21(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.210)(vite@5.4.0(@types/node@16.18.11)))(svelte@5.0.0-next.210)(vite@5.4.0(@types/node@16.18.11)))
+      gtag:
+        specifier: ^1.0.1
+        version: 1.0.1
       vercel:
         specifier: ^35.2.4
         version: 35.2.4
@@ -1273,6 +1276,11 @@ packages:
 
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
+
+  gtag@1.0.1:
+    resolution: {integrity: sha512-BvWgeldFJq1MBpgf5LP0UXhcvdzdl5Sb+TmC+l2hskLn4EWS2IDEqW4dbkKx2sxOqm8tCDpedu0xden1DdlD/w==}
+    engines: {node: '>=0.10.0'}
+    hasBin: true
 
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
@@ -3512,6 +3520,8 @@ snapshots:
   graceful-fs@4.2.11: {}
 
   graphemer@1.4.0: {}
+
+  gtag@1.0.1: {}
 
   has-flag@4.0.0: {}
 

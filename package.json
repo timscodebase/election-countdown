@@ -38,6 +38,7 @@
 		"@js-temporal/polyfill": "^0.4.4",
 		"@sveltejs/adapter-static": "^3.0.3",
 		"@sveltejs/adapter-vercel": "^5.4.2",
+		"gtag": "^1.0.1",
 		"vercel": "^35.2.4"
 	}
 }
