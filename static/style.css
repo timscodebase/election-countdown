@@ -75,12 +75,12 @@ main {
 }
 
 .countdown {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   place-items: center;
   gap: var(--spacing);
   padding: var(--spacing);
   margin: var(--spacing);
-  grid-template-columns: 1fr 3px 1fr 3px 1fr;
   background: var(--color-shadow-blue);
   box-shadow: 3px 3px 0px var(--red),
               6px 6px 0px var(--white),
@@ -160,9 +160,7 @@ hr {
   }
 
   .countdown {
-    grid-template-columns: 1fr;
-    
-
+    gap: var(--spacing);
     .wall {
       display: none;
     }
