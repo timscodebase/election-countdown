@@ -55,6 +55,9 @@
 			<div class="days blue">Days</div>
 		</div>
 	</section>
+	<section class="countdown">
+		<iframe src="https://www.usdebtclock.org" frameborder="0"></iframe>
+	</section>
 </main>
 <footer>
 	<p>
@@ -64,3 +67,14 @@
 	</p>
 	<p>Copyright &copy; {new Date().getFullYear()}</p>
 </footer>
+
+<style>
+	iframe {
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		border: none;
+	}
+	.countdown:has(iframe) {
+		padding: 0;
+	}
+</style>
