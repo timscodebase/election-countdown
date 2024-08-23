@@ -3,11 +3,14 @@
 	// import gtag from 'gtag';
 
 	$effect(() => {
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3189326528459169"
+     crossorigin="anonymous"></script>
+
 		if (typeof gtag !== 'undefined') {
 			gtag('config', 'G-79ZYXTX8LL', {
 				page_title: document.title,
 				page_path: $page.url.pathname
-			});
+			})();
 		}
 	});
 </script>

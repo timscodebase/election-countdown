@@ -16,3 +16,6 @@ export function daysSinceDate(date: Date): number {
   const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
   return daysDifference;
 }
+
+import Comments from "./components/comments.svelte";
+export { Comments };

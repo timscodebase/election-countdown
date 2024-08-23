@@ -65,40 +65,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-main {
-  display: grid;
-  place-content: center;
-  text-align: center;
-  gap: 1rem;
-}
 
-.countdown, footer, header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: var(--spacing);
-  padding: calc(var(--spacing) / 2) var(--spacing);
-  margin: calc(var(--spacing) / 2) var(--spacing);
-  background: var(--color-shadow-blue);
-  box-shadow: 3px 3px 0px var(--red),
-              6px 6px 0px var(--white),
-              9px 9px 0px var(--blue),
-              -3px 3px 0px var(--red),
-              -6px 6px 0px var(--white),
-              -9px 9px 0px var(--blue),
-              3px -3px 0px var(--red),
-              6px -6px 0px var(--white),
-              9px -9px 0px var(--blue),
-              -3px -3px 0px var(--red),
-              -6px -6px 0px var(--white),
-              -9px -9px 0px var(--blue);
-
-  .wall {
-    background: var(--white);
-    width: 3px;
-    height: 100%;
-  }
-}
 
 h1, h2, p {
   margin: 0;
@@ -153,16 +120,6 @@ hr {
   margin: 2em;
 }
 
-footer {
-  text-align: center;
-  p {
-    font-size: 0.8em;
-    color: var(--color-grey);
-    text-shadow: 0 0 0.5em var(--color-shadow-red),
-               0 0 1em var(--color-shadow-red),
-               0 0 1.2em var(--color-shadow-red);
-  }
-}
 
 @media screen and (max-width: 1200px) {
   :root {
